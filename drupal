@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: drupal
+spec:
+  containers:
+  - name: drupal
+    image: drupal
+    ports:
+    - containerPort: 80
